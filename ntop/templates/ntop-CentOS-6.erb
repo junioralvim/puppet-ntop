@@ -1,0 +1,13 @@
+--user ntop
+
+--use-syslog=daemon
+
+--db-file-path /var/lib/ntop
+
+--trace-level 3
+
+# --http-server 0.0.0.0:3000  ATIVODO DEFAULT 
+
+--interface <%= interface_monit %>
+
+--skip-version-check=yes
